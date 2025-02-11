@@ -53,8 +53,16 @@
     <UnityVersion>2020.3.6f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameState\StateBase.cs" />
     <Compile Include="Assets\Scripts\Tools\UITool.cs" />
+    <Compile Include="Assets\Scripts\Service\EventSvc\Msg.cs" />
     <Compile Include="Assets\Scripts\Tools\UnityTool.cs" />
+    <Compile Include="Assets\Scripts\Common\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Common\GameRoot.cs" />
+    <Compile Include="Assets\Scripts\GameState\StateType.cs" />
+    <Compile Include="Assets\Scripts\Service\EventSvc\EvtService.cs" />
+    <Compile Include="Assets\Scripts\Service\EventSvc\MsgManager.cs" />
+    <Compile Include="Assets\Scripts\Common\ILogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
